@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colorful and Organized To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="New Task">
+        <select id="priorityInput">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
+        <button onclick="addTask()">Add Task</button>
+    </div>
+    <div class="list-container">
+        <h2>High Priority</h2>
+        <ul id="highPriorityList"></ul>
+        <h2>Medium Priority</h2>
+        <ul id="mediumPriorityList"></ul>
+        <h2>Low Priority</h2>
+        <ul id="lowPriorityList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
